@@ -47,6 +47,8 @@ ro.bluetooth.alwaysbleon=true
 
 # Camera
 persist.camera.cpp.duplication=false
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
 
 # GPS
 persist.gps.qc_nlp_in_use=0
