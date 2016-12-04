@@ -11,3 +11,6 @@ allow mediaserver system_server:unix_stream_socket { read write };
 allow mediaserver audio_device:chr_file { ioctl open read write };
 
 binder_call(mediaserver, audiod)
+
+# Hackzz
+allow mediaserver audio_device:chr_file { ioctl open read write };
